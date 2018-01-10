@@ -1,0 +1,11 @@
+version: '2'
+services:
+    authenticator-postgresql:
+        image: postgres:9.6.5
+        # volumes:
+        #     - ~/volumes/jhipster/authenticator/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=authenticator
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
