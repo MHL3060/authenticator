@@ -142,3 +142,4 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+.sts4-cache
